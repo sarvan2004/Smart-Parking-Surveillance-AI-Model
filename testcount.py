@@ -58,10 +58,10 @@ while True:
     frame=cv2.resize(frame,(1020,500))
 
     results=model.predict(frame)
- #   print(results)
+ 
     a=results[0].boxes.data
     px=pd.DataFrame(a).astype("float")
-#    print(px)
+
     list1=[]
     list2=[]
     list3=[]
@@ -76,7 +76,7 @@ while True:
     list12=[]
     
     for index,row in px.iterrows():
-#        print(row)
+
  
         x1=int(row[0])
         y1=int(row[1])
@@ -251,5 +251,5 @@ while True:
         break
 cap.release()
 cv2.destroyAllWindows()
-#stream.stop()
+
 
