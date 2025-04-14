@@ -12,8 +12,7 @@ The number of available (empty) spots is displayed in real-time on the video.
 
 
 
-
-  HOW TO RUN:
+HOW TO RUN:
 
 
   
@@ -27,7 +26,9 @@ python testcount.py
 
 
 
-🚗 Smart Parking Detection — Step-by-Step Process:
+
+SMART PARKING DETECTION — STEP-BY-STEP PROCESS:
+
 
 1. Model Initialization
 The system begins by loading a pre-trained YOLOv8 object detection model, which is capable of identifying various objects such as vehicles within video frames.
