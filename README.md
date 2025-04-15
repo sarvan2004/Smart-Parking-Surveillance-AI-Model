@@ -92,15 +92,15 @@ The system runs continuously until the user stops it by pressing a key (typicall
 
 
 
--Detects vehicles live within a parking area.
+    -Detects vehicles live within a parking area.
 
--Tracks which parking spaces are in use and which are free.
+    -Tracks which parking spaces are in use and which are free.
 
--Visually updates the status of each parking spot on the video display.
+    -Visually updates the status of each parking spot on the video display.
 
--Provides a real-time count of available parking spaces.
+    -Provides a real-time count of available parking spaces.
 
--Offers an efficient and clear visual monitoring system for parking management.
+    -Offers an efficient and clear visual monitoring system for parking management.
 
 
 
